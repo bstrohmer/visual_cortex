@@ -13,3 +13,5 @@ From the "installer_files" git folder:<br>
 Copy the "aeif_cond_beta.nestml" file into the path that was created to the NESTML models within your environment. The path will look similar to: .../.../miniconda3/envs/MY_ENVIRONMENT_NAME/models/neurons<br>
 Copy the "create_aeif_cond_beta.py" to a relevant folder on your computer.<br>
 Create the aeif_cond_beta neuron by running the python script. Before running the script, update the "input_path" and "target_path" in the Python file. The input path should be the path where you copied the "aeif_cond_beta.nestml" file.
+
+NOTE: For newer versions of NESTML, in the "neuron" should be changed to "model" and comments should use # instead of """ block comments in the "aeif_cond_beta.nestml" file.
